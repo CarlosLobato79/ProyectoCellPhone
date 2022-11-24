@@ -12,7 +12,7 @@
       arrows
       height="300px"
       class="bg-primary text-white shadow-1 rounded-borders"
-    >
+      >
       <q-carousel-slide name="style" class="column no-wrap flex-center">
         <q-icon name="style" size="56px" />
         <div class="q-mt-md text-center">
@@ -25,12 +25,9 @@
           {{ lorem }}
         </div>
       </q-carousel-slide>
-      
-      
     </q-carousel>
   </div>
 </template>
-
 <script>
 import { ref } from "vue";
 

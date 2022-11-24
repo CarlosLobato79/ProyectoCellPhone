@@ -3,7 +3,7 @@
     style="height: 100px"
     class="row justify-center items-center bg-warning q-pa-lg"
   >
-    <span>Footer creador {{ creador }}</span>
+    <span class="">Footer creador {{ creador }}</span>
   </div>
 </template>
 

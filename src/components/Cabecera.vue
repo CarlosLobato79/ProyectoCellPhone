@@ -80,7 +80,6 @@ import { defineComponent, ref } from "vue";
 import NewArticule from "./Modals/NewArticule.vue";
 export default {
   name: "Cabecera-block",
-
   data() {
     return {
       titulo: "CellphoneStore Title",
@@ -91,7 +90,6 @@ export default {
   },
   setup() {
     const leftDrawerOpen = ref(false);
-
     return {
       leftDrawerOpen,
       toggleLeftDrawer() {
@@ -100,6 +98,7 @@ export default {
     };
   },
 };
+
 </script>
 
 <style scoped></style>

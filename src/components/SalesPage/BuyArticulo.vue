@@ -8,7 +8,6 @@
       <span><strong>Telefono: </strong>{{ TelefonoVendedor }}</span>
     </div>
   </div>
-  
 </template>
 
 <script>
